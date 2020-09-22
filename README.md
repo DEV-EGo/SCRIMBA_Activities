@@ -1,2 +1,2 @@
 # SCRIMBA_Activities
-Practicing and sharpening skills by using an online course that presents the user to HTML-CSS-JS-React_MONGO DB - etc
+Practicing & sharpening skills with the help of an online course that introduces the user to HTML-CSS-JS-React_MONGO DB and various fullstack libraries and frameworks
