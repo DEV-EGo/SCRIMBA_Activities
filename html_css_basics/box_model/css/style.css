@@ -7,10 +7,16 @@ header {
   background: white;
   color: #333;
   width: 100px;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 main {
   background: lightblue;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
   color: #333;
   width: 250px;
   /* height: 400px;  AVOID SETTING HEIGHT sometimes this will cause text to overflow*/
