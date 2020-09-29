@@ -5,6 +5,11 @@ body {
 a {
   color: darksalmon;
 }
-h1 {
-  color: darkkhaki;
+
+.intro {
+  font-size: 24px;
+}
+
+#earth-title {
+  color: lightgreen;
 }
