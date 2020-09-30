@@ -7,9 +7,20 @@ header {
   background: white;
   color: #333;
   width: 100px;
-  margin-bottom: 100px;
+
+  /* long way of writing out margin properties*/
+
+  /* margin-bottom: 100px;
   margin-left: 100px;
-  margin-right: 100px;
+  margin-right: 100px; */
+
+  /* ^^long way of writing out margin properties*/
+
+  /* short hand way of writing margins also cleaner code*/
+
+  margin: 100px;
+
+  /*^^^^^^ short hand way of writing margins also cleaner code*/
 }
 
 main {
