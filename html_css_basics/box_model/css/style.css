@@ -21,6 +21,17 @@ header {
   margin: 100px;
 
   /*^^^^^^ short hand way of writing margins also cleaner code*/
+
+  /* short hand example below*/
+  /* padding: 20px 30px 40px 50px; */
+  /* short hand example ^^*/
+
+  /* long hand padding example*/
+  padding-left: 20px;
+  padding-right: 50px;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  /* long hand padding example ^^*/
 }
 
 main {
