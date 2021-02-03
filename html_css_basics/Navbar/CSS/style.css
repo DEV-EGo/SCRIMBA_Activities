@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #0e2957;
+    padding: 1em;
+    margin: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    margin: 0.5em;
+    transition: all 500ms;
+}
+
+.link:hover, link:focus {
+    color: #fff582; /* font changes color when you hover over it*/
+
+}
