@@ -6,10 +6,9 @@ body {
 header {
   width: 100px;
 
-  border-color: yellow;
-  border-width: 20px;
-  border-style: dashed;
-
+  border: 10px solid red;
+  border-bottom-color: yellow;
+  border-left-style: dashed; /* specify a single style*/
   padding: 20px;
   margin: 20px;
 }
