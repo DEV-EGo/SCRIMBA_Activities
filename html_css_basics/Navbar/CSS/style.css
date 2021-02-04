@@ -37,3 +37,7 @@ body {
         justify-content: space-around;
     }
 }
+
+.name {
+    font-weight: 800;
+}

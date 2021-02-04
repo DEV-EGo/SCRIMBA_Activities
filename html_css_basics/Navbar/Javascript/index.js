@@ -8,6 +8,7 @@ function setName(name) {
   let nameInner = document.createElement("span");
 
   nameInnner.innerText = name;
+
   nameInner.setAttribute("class", "name");
 
   linkName.appendChild(nameInner); ///targeting the navbar class "linkname"
