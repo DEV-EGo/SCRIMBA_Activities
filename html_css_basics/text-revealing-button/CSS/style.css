@@ -18,4 +18,11 @@ body {
     background: none;
     color:#2c2c2c;
     border: 1px solid #4a4a4a;
+    transition: all 200ms;
+}
+
+.btn:hover {
+    border: 1px solid #ababab;
+    color: #2c2c2c;
+    font-size: 1.1rem;
 }
