@@ -11,8 +11,8 @@ function setName(name) {
 
   nameInner.setAttribute("class", "name");
 
-  linkName.appendChild(nameInner); ///targeting the navbar class "linkname"
-
+  linkName.appendChild(nameInner);
+  ///targeting the navbar class "linkname"
   return nameInner;
 }
 
