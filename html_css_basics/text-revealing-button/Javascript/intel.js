@@ -7,5 +7,14 @@ function toggleText() {
   if (shown) {
     btn.innerText = "show text 👀";
     text.style.opacity = 0; //text will change to invisible
+  } else {
+    btn.innerText = "Hide Text";
+    text.style.opacity = 1;
   }
+  shown = !shown; //will change the boolean value
 }
+
+btn.addEventListener("click", () => {
+  //event listener for the button so it can work
+  toggleText();
+});
