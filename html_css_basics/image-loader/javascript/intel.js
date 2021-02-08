@@ -20,5 +20,16 @@ function setImage(url, width, color) {
 }
 
 urlInput.addEventListener("change", () => {
+  url = urlInput.value;
+  setImage(url, width, color);
+});
+
+widthInput.addEventListener("change", () => {
+  width = widthInput.value;
+  setImage(url, width, color);
+});
+
+colorInput.addEventListener("change", () => {
+  color = colorInput.value;
   setImage(url, width, color);
 });
