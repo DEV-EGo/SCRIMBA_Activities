@@ -34,3 +34,13 @@ function loadImage() {
   img.setAttribute("src", imageInfo.src);
   img.setAttribute("alt", imageInfo.alt);
 }
+
+img.addEventListener("click", () => {
+  loadImage();
+});
+
+document.body.addEventListener("keydown", (e) => {
+  if (e.key === " ") {
+    loadImage();
+  }
+});
