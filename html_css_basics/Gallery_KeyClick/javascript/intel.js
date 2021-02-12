@@ -21,13 +21,18 @@ let images = [
     src: "https://images.unsplash.com/photo-1588392382834-a891154bca4d?w=400",
     alt: "Green trees",
   },
+  {
+    src:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp63OFRQoOWxs2S2ZSQudLk7j-JCc5IdcfKA&usqp=CAU",
+    alt: "thanos",
+  },
 ];
 
 function loadImage() {
   // creating a random selection
   let src = img.getAttribute("src");
   let imageInfo = images[Math.floor(Math.random() * images.length)];
-  while (src == imageInfo.src) {
+  while (src === imageInfo.src) {
     imageInfo = images[Math.floor(Math.random() * images.length)];
   }
 
@@ -44,3 +49,5 @@ document.body.addEventListener("keydown", (e) => {
     loadImage();
   }
 });
+
+loadImage();
