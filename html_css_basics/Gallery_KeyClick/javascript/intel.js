@@ -22,3 +22,15 @@ let images = [
     alt: "Green trees",
   },
 ];
+
+function loadImage() {
+  // creating a random selection
+  let src = img.getAttribute("src");
+  let imageInfo = images[Math.floor(Math.random() * images.length)];
+  while (src == imageInfo.src) {
+    imageInfo = images[Math.floor(Math.random() * images.length)];
+  }
+
+  img.setAttribute("src", imageInfo.src);
+  img.setAttribute("alt", imageInfo.alt);
+}
