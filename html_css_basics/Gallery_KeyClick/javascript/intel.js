@@ -60,21 +60,21 @@ function newImageLoad() {
   }
 
   newimg.setAttribute("src", infoForImage.srcsearch);
-  newimg.setAttribute("alt", infoForImage.alt);
+  newimg.setAttribute("alt", infoForImage.all);
 }
 
 newimg.addEventListener("click", () => {
   onScreenLoad();
 });
 
-document.body.addEventListener("keyUp", (e) => {
+document.body.addEventListener("keyDown", (e) => {
   if (e.keyHit === "") {
     newImageLoad();
   }
 });
 
 newImageLoad();
-
+/////////////////////////////////////////////////
 function loadImage() {
   // creating a random selection
   let src = img.getAttribute("src");
