@@ -54,7 +54,9 @@ let images = [
 
 function newImageLoad() {
   let srcsearch = newimg.getAttribute("src");
+
   let infoForImage = newimage[Math.floor(Math.random() * newimage.length)];
+
   while (srcsearch === infoForImage) {
     infoForImage = newimage[Math.floor(Math.random() * newimage.length)];
   }
@@ -64,7 +66,7 @@ function newImageLoad() {
 }
 
 newimg.addEventListener("click", () => {
-  onScreenLoad();
+  renderLoad();
 });
 
 document.body.addEventListener("keyDown", (e) => {
